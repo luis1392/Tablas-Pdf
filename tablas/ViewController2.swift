@@ -18,10 +18,15 @@ class ViewController2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        habilitarZoom()
         mostrarPdf()
         
         // Do any additional setup after loading the view.
         print("Se activo la func viewDidLoad en pantalla 2")
+    }
+    
+    func habilitarZoom() {
+        vistaWeb.scalesPageToFit = true
     }
     
     func mostrarPdf() {
