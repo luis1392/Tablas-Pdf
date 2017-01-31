@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    //Delegado: En iOS, un delegado(Delegate) es una clase que implementa un protocolo y realiza ciertas funciones en nombre de otra clase. Tambien se puede utilzar para notificar eventos.
+    //Protocolo : En iOS un protocolo (Protocol) es una lista de métodos o funciones que especifican un "Contrato" que cierta clase debe de cumplir si se le asigna el protocolo .
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        print("se activo la func application")
         return true
     }
 
